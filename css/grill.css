@@ -1,0 +1,19 @@
+body {
+    background-image: url('../images/With_Coffin.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    background-image: url('../images/page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 80vh;
+    margin: 5vw;
+}
+
+.text {
+    padding: auto;
+}

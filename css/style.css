@@ -1,0 +1,7 @@
+body {
+    /* Set the background image */
+    background-image: url('../images/With_Coffin.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

@@ -1,0 +1,23 @@
+body {
+    background-image: url('../images/Without_Coffin.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+}
+
+.coffin {
+    margin-top: 350px;
+    margin-left: 1000px;
+
+}
+
+.text-block {
+    position: absolute;
+    bottom: 60%;
+    right: 55%;
+    transform: translate(-50%, -50%);
+}
