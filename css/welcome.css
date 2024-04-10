@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+.container {
+    background-image: url('../images/tumbstone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 50vh;
+    min-width: 30vw;
+    min-height: 40vw;
+    position: absolute;
+    right: 30vw;
+    top: 20vw;
+}
+
+.text {
+    padding: auto;
+    margin-top: 15vw;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+}
+
+.agree-button img {
+    width: 20vw;
+    margin-top: 55vw;
+    margin-left: 40vw;
+}
+
+.agree-button {
+    color: white; /* Change text color */
+    position: cover;
+}
+
+.agree-button span {
+    position: absolute;
+    top: 50%;
+    left: px; /* Adjust spacing between image and text */
+    transform: translateY(-50%);
+}

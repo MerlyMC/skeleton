@@ -12,7 +12,7 @@ body {
     width: 30vw;
     height: 80vh;
     min-width: 30vw;
-    min-height: 80vh;
+    min-height: 50vw;
     position: absolute;
     right: 15px;
     top: 5vw;
@@ -25,16 +25,16 @@ body {
 }
 
 img {
-    width: 100vw;
+    width: 65vw;
     position: absolute;
-    top: 1vw;
-    left: -15vw;
-    background: radial-gradient(#444B2D 0%, transparent 70%);
+    top: 9vw;
+    left: -1vw;
+    background: radial-gradient(#444B2D 0%, transparent 80%);
 }
 
 .back-button img {
     width: 10vw;
     position: absolute;
-    margin-top: 65vw;
-    margin-left: 15vw;
+    margin-top: 50vw;
+    margin-left: 5vw;
 }
