@@ -27,14 +27,13 @@ body {
     transform: translate(-50%, -50%);
     font-family: 'LeHavre';
     font-size: xx-large;
+    text-decoration: black;
 }
+
 
 .list {
     font-weight: normal;
     text-shadow: 2px 2px;
-    text-decoration-line: none;
-    text-decoration: none;
-    text-decoration-color: black;
 }
 
 @font-face {
