@@ -7,11 +7,19 @@ body {
 }
 
 .back-button img {
-    width: 50vw;
+    width: 40vw;
     position: relative;
-    margin-left: 23.5%;
+    margin-left: 29.5%;
 }
 
 h1 {
-    text-shadow: 0 0 10px rgba(255, 2, 2, 0.802);
+    font-family: 'LeHavre';
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.802);
+    font-size: xx-large;
 }
+
+@font-face {
+    font-family: LeHavre;
+    src: url(../font/LeHavre.otf);
+}
+

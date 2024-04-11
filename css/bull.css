@@ -9,12 +9,12 @@ body {
     background-image: url('../images/page.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 30vw;
-    height: 99vh;
-    min-width: 30vw;
-    min-height: 99vh;
+    width: 25vw;
+    height: 80vh;
+    min-width: 25vw;
+    min-height: 80vh;
     position: absolute;
-    right: 15px;
+    right: 90px;
     top: 5vw;
 }
 
@@ -23,19 +23,27 @@ body {
     margin-left: 4%;
     margin-right: 4%;
     position: absolute;
+    font-family: 'LeHavre';
+    font-weight: normal;
+    font-size: x-large;
 }
 
 img {
-    width: 65vw;
+    width: 55vw;
     position: absolute;
-    top: 7vw;
-    left: 3vw;
+    top: 5vw;
+    left: 10vw;
     background: radial-gradient(#444B2D 0%, transparent 70%);
 }
 
 .back-button img {
     width: 10vw;
     position: absolute;
-    margin-top: 45vw;
-    margin-left: 0vw;
+    margin-top: 30vw;
+    margin-left: -5vw;
+}
+
+@font-face {
+    font-family: LeHavre;
+    src: url(../font/LeHavre.otf);
 }

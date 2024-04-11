@@ -6,32 +6,57 @@ body {
     background-image: url('../images/tumbstone.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40vw;
-    height: 50vh;
-    min-width: 30vw;
-    min-height: 40vw;
+    width: 18vw;
+    height: 18vh;
+    min-width: 18vw;
+    min-height: 18vw;
     position: absolute;
-    right: 30vw;
-    top: 20vw;
+    right: 40.2vw;
+    top: 10vw;
 }
 
 .text {
     padding: auto;
-    margin-top: 15vw;
+    margin-top: 5vw;
     margin-left: 4%;
     margin-right: 4%;
     text-align: center;
+    font-family: 'LeHavre';
+    font-size: x-large;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: normal;
 }
 
 .agree-button img {
     width: 20vw;
-    margin-top: 55vw;
-    margin-left: 40vw;
+    margin-top: 20vw;
+    margin-left: 40.5vw;
+ 
 }
 
 .agree-button {
     color: white; /* Change text color */
     position: cover;
+    text-align: center;
+    font-family: 'LeHavre';
+    top: 30;
+}
+
+#submit_text{
+    position:absolute;
+    top: 57%;
+    left:49%;
+    z-index:2;
+    /* background-color: blue; */
+ 
 }
 
 .agree-button span {
@@ -40,3 +65,9 @@ body {
     left: px; /* Adjust spacing between image and text */
     transform: translateY(-50%);
 }
+
+@font-face {
+    font-family: LeHavre;
+    src: url(../font/LeHavre.otf);
+}
+

@@ -9,19 +9,36 @@ body {
     background-image: url('../images/coffin.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 35vw;
+    width: 26vw;
     height: 60vh;
-    min-width: 35vw;
+    min-width: 26vw;
     min-height: 60vh;
     position: absolute;
-    margin-left: 36%;
+    margin-left: 40%;
     margin-top: 10%;
 }
 
 .text-block {
-    position: absolute;
+    position: relative;
+    top: 35%;
     bottom: 40%;
-    right: 8%;
+    left: 67%;
+    align-items: center;
     transform: translate(-50%, -50%);
+    font-family: 'LeHavre';
+    font-size: xx-large;
+}
+
+.list {
+    font-weight: normal;
+    text-shadow: 2px 2px;
+    text-decoration-line: none;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+@font-face {
+    font-family: LeHavre;
+    src: url(../font/LeHavre.otf);
 }
 
