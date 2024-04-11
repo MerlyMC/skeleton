@@ -10,9 +10,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 30vw;
-    height: 80vh;
+    height: 85vh;
     min-width: 30vw;
-    min-height: 80vh;
+    min-height: 85vh;
     position: absolute;
     right: 15px;
     top: 5vw;
@@ -22,19 +22,20 @@ body {
     padding: auto;
     margin-left: 4%;
     margin-right: 4%;
+    position: absolute;
 }
 
 img {
     width: 100vw;
     position: absolute;
-    top: 1vw;
-    left: -15vw;
+    top: -5vw;
+    left: -10vw;
     background: radial-gradient(#444B2D 0%, transparent 70%);
 }
 
 .back-button img {
     width: 10vw;
-    position: absolute;
-    margin-top: 65vw;
-    margin-left: 15vw;
+    position: relative;
+    margin-top: 55vw;
+    margin-left: 10vw;
 }

@@ -5,3 +5,13 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+.back-button img {
+    width: 50vw;
+    position: relative;
+    margin-left: 23.5%;
+}
+
+h1 {
+    text-shadow: 0 0 10px rgba(255, 2, 2, 0.802);
+}
